@@ -6,7 +6,7 @@ import ContactForm from "./ContactForm/ContactForm";
 
 const ContactMe = () => {
   return (
-    <section className="contact-container">
+    <section className="contact-container" id="contactme">
       <h5>Contáctame</h5>
       <div className="contact-content">
         <div style={{ flex: 1 }}>
@@ -16,7 +16,7 @@ const ContactMe = () => {
           />
           <ContactMeCard
             iconURL={"./assets/images/githubIcon.svg"}
-            text={"github@uta.edu.ec"}
+            text={"https://github.com/JaviFiallos"}
           />
         </div>
         <div style={{ flex: 1 }}>
